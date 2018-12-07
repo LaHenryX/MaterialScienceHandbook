@@ -5,23 +5,72 @@
  body {background-color:white}
  div {background-color:#367CB9}
  h1 {color:white; text-align:left; font-size:300%}
- h2 {color:white; font-size:100%; text-align:right}
+ h2 {color:white; font-size:100%; text-align:left}
  h3 {color:white; font-size:120%; text-align:left; text-align:left; padding-left:4%;padding-top:4%;padding-bottom:4%}
  p {color:white; text-align:left}
+ table {width:100%}
+ td {color:white}
+ th {color:white}
+
+
+ span.frac {
+display: inline-block;
+text-align: center;
+}
+span.frac > sup {
+display: block;
+border-bottom: 1px solid;
+font: inherit;
+}
+span.frac > span {
+display: none;
+}
+span.frac > sub {
+display: block;
+font: inherit;
+}
+
 </style>
 </head>
 <body>
 
-<div> <h3>Polyethylen</h3></div>
-<div style="margin-top:10%">
-    <h3>PHYSICAL</h3>
-    <p style="padding-top:5%;;margin-left:15%">density (g*cm³)</p>
-    <h2 style="text-align:right;margin-right:15%;margin-bottom:">1,34</h2>
+<div> <h3>PET= polyethylene terephtalate</h3></div>
 
-</div>
-<div style="width:50px;border-left-width:500px;border-left-color:pink;float:left">
-    <h2 style="color:#367CB9;text-align:right;margin-right:15%;margin-bottom:">1,34</h2>
+<div><h2>physical</h2></div>
+<div>
+    <table>
+             <tr>
+                 <td style="text-align:left;">
+                     density
+                 </td>
+                 <td style= "text-align: right;">
+                     1,34
+                 </td>
+                 <td style= "text-align: right;">
+                     &nbsp <span  class="frac"><sup>g</sup> <span>/</span> <sub>cm<sup>3</sup></sub></span>
+                 <td/>
+             </tr>
+    </table>
 </div>
 
+<div><h2>mechanical</h2></div>
+<div>
+    <table>
+            <tr>
+                <td style="text-align:left;" >
+                    tensile strenght (yield)
+                </td>
+                <td style= "text-align: right;">
+                    59
+                </td>
+                <td style= "text-align: right;">
+                    &nbsp Mpa
+                <td/>
+
+
+            </tr>
+
+    </table>
+</div>
 </body>
 </html>
