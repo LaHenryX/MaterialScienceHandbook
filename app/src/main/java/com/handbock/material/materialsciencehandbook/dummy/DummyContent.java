@@ -27,16 +27,20 @@ public class DummyContent {
 
     static {
         // Add some sample items.
-        addItem(new DummyItem("1","PET", "file:///android_asset/second_page.html"));
-        addItem(new DummyItem("2","Plastic 2", "http://www.google.com"));
-        addItem(new DummyItem("3","VC", "http://www.google.com"));
-        addItem(new DummyItem("4","Plastic 4", "http://www.google.com"));
-        addItem(new DummyItem("5","Plastic 5", "http://www.google.com"));
-        addItem(new DummyItem("6","Plastic 6", "http://www.google.com"));
-        addItem(new DummyItem("7","Plastic 7", "http://www.google.com"));
-        addItem(new DummyItem("8","Plastic 8", "http://www.google.com"));
-        addItem(new DummyItem("9","Plastic 9", "http://www.google.com"));
+        addItem(new DummyItem(" 1","PET", "file:///android_asset/second_page.html"));
+        addItem(new DummyItem(" 2","LDPE", "http://www.google.com"));
+        addItem(new DummyItem(" 3","HDPE", "http://www.google.com"));
+        addItem(new DummyItem(" 4","EP", "http://www.google.com"));
+        addItem(new DummyItem(" 5","PP", "http://www.google.com"));
+        addItem(new DummyItem(" 6","PS", "http://www.google.com"));
+        addItem(new DummyItem(" 7","PVC", "http://www.google.com"));
+        addItem(new DummyItem(" 8","Plastic 8", "http://www.google.com"));
+        addItem(new DummyItem(" 9","Plastic 9", "http://www.google.com"));
         addItem(new DummyItem("10","Plastic 10", "http://www.google.com"));
+        addItem(new DummyItem("11","Plastic 11", "http://www.google.com"));
+        addItem(new DummyItem("12","Plastic 12", "http://www.google.com"));
+        addItem(new DummyItem("13","Plastic 13", "http://www.google.com"));
+        addItem(new DummyItem("14","Plastic 14", "http://www.google.com"));
     }
 
     private static void addItem(DummyItem item) {
