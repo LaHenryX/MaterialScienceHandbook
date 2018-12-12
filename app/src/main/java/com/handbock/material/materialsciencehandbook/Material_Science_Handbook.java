@@ -17,9 +17,10 @@ public class Material_Science_Handbook extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_material__science__handbook);
         String myurl="file:///android_asset/first_page.html";
-        WebView view = (WebView) findViewById(R.id.webview);
+        WebView view = (WebView) findViewById(R.id.starting_page);
         view.getSettings().setJavaScriptEnabled(true);
         view.loadUrl (myurl);
+
         button=(Button)findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener(){
             @Override
