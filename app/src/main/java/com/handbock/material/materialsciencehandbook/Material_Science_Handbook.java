@@ -21,6 +21,17 @@ public class Material_Science_Handbook extends AppCompatActivity {
         view.getSettings().setJavaScriptEnabled(true);
         view.loadUrl (myurl);
 
+
+        String secondurl="file:///android_asset/landscape_left.html";
+        WebView doubleview = (WebView) findViewById(R.id.landscape_left);
+        doubleview.getSettings().setJavaScriptEnabled(true);
+        doubleview.loadUrl (secondurl);
+
+        String trippleurl="file:///android_asset/landscape_right.html";
+        WebView trippleview = (WebView) findViewById(R.id.landscape_right);
+        trippleview.getSettings().setJavaScriptEnabled(true);
+        trippleview.loadUrl (trippleurl);
+
         button=(Button)findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener(){
             @Override

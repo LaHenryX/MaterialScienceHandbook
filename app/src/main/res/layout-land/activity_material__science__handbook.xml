@@ -11,28 +11,61 @@
         android:id="@+id/button"
         android:layout_width="123dp"
         android:layout_height="65dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginLeft="300dp"
         android:text="@string/open_list"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.965"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.934" />
+        app:layout_constraintVertical_bias="0.78" />
+
 
     <WebView xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:id="@+id/starting_page"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="45dp"
+        android:layout_height="153dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.551"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.594"
         tools:context=".PlasticDetailFragment">
 
     </WebView>
 
+
+    <WebView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/landscape_right"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="300dp"
+        android:layout_marginLeft="300dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:context=".PlasticDetailFragment">
+
+    </WebView>
+
+    <WebView
+        android:id="@+id/landscape_left"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/starting_page"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.571"
+        tools:context=".PlasticDetailFragment">
+
+    </WebView>
 
 </android.support.constraint.ConstraintLayout>
