@@ -16,18 +16,18 @@ public class Material_Science_Handbook extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_material__science__handbook);
-        String myurl="file:///android_asset/first_page.html";
+        String myurl="file:///android_asset/starting_pages/first_page.html";
         WebView view = (WebView) findViewById(R.id.starting_page);
         view.getSettings().setJavaScriptEnabled(true);
         view.loadUrl (myurl);
 
 
-        String secondurl="file:///android_asset/landscape_left.html";
+        String secondurl="file:///android_asset/starting_pages/landscape_left.html";
         WebView doubleview = (WebView) findViewById(R.id.landscape_left);
         doubleview.getSettings().setJavaScriptEnabled(true);
         doubleview.loadUrl (secondurl);
 
-        String trippleurl="file:///android_asset/landscape_right.html";
+        String trippleurl="file:///android_asset/starting_pages/landscape_right.html";
         WebView trippleview = (WebView) findViewById(R.id.landscape_right);
         trippleview.getSettings().setJavaScriptEnabled(true);
         trippleview.loadUrl (trippleurl);

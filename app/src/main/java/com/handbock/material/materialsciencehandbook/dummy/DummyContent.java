@@ -27,20 +27,18 @@ public class DummyContent {
 
     static {
         // Add some sample items.
-        addItem(new DummyItem(" 1","PET", "file:///android_asset/second_page.html"));
-        addItem(new DummyItem(" 2","LDPE", "http://www.google.com"));
-        addItem(new DummyItem(" 3","HDPE", "http://www.google.com"));
-        addItem(new DummyItem(" 4","EP", "http://www.google.com"));
-        addItem(new DummyItem(" 5","PP", "http://www.google.com"));
-        addItem(new DummyItem(" 6","PS", "http://www.google.com"));
-        addItem(new DummyItem(" 7","PVC", "http://www.google.com"));
-        addItem(new DummyItem(" 8","Plastic 8", "http://www.google.com"));
-        addItem(new DummyItem(" 9","Plastic 9", "http://www.google.com"));
-        addItem(new DummyItem("10","Plastic 10", "http://www.google.com"));
-        addItem(new DummyItem("11","Plastic 11", "http://www.google.com"));
-        addItem(new DummyItem("12","Plastic 12", "http://www.google.com"));
-        addItem(new DummyItem("13","Plastic 13", "http://www.google.com"));
-        addItem(new DummyItem("14","Plastic 14", "http://www.google.com"));
+        addItem(new DummyItem(" 1","EP", "file:///android_asset/plastics/ep.html"));
+        addItem(new DummyItem(" 2","HDPE", "file:///android_asset/plastics/hdpe.html"));
+        addItem(new DummyItem(" 3","LDPE", "file:///android_asset/plastics/ldpe.html"));
+        addItem(new DummyItem(" 4","PC", "file:///android_asset/plastics/pc.html"));
+        addItem(new DummyItem(" 5","PET", "file:///android_asset/plastics/pet.html"));
+        addItem(new DummyItem(" 6","PF", "file:///android_asset/plastics/pf.html"));
+        addItem(new DummyItem(" 7","PMMA", "file:///android_asset/plastics/pmma.html"));
+        addItem(new DummyItem(" 8","POM", "file:///android_asset/plastics/pom.html"));
+        addItem(new DummyItem(" 9","PP", "file:///android_asset/plastics/pp.html"));
+        addItem(new DummyItem("10","PS", "file:///android_asset/plastics/ps.html"));
+        addItem(new DummyItem("11","PUR", "file:///android_asset/plastics/pur.html"));
+        addItem(new DummyItem("12","PVC", "file:///android_asset/plastics/pvc.html"));
     }
 
     private static void addItem(DummyItem item) {
