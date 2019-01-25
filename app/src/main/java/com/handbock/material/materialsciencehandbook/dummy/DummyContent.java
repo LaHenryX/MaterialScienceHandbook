@@ -27,7 +27,7 @@ public class DummyContent {
 
     static {
         // Add some sample items.
-        addItem(new DummyItem(" 1","EP", "file:///android_asset/plastics/ep.html"));
+        addItem(new DummyItem(" 1","Density", "file:///android_asset/plastics/ep.html"));
         addItem(new DummyItem(" 2","HDPE", "file:///android_asset/plastics/hdpe.html"));
         addItem(new DummyItem(" 3","LDPE", "file:///android_asset/plastics/ldpe.html"));
         addItem(new DummyItem(" 4","PC", "file:///android_asset/plastics/pc.html"));
