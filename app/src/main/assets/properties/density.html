@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+
+div {background-color:#367CB9;margin-top:12%;margin-bottom:-4%}
+h3 {color:white; font-size:6vw; text-align:left; padding-left:4%;padding-top:4%;padding-bottom:4%}
+table{
+  table-layout: fixed;
+  width: 100%;
+  background-color:#FFFFFF;
+}
+th{
+  text-align: left;
+  padding: 0px;
+}
+
+td{
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 0px;
+  font-size:4vw;
+}
+
+  #graphic  tr:nth-child(even) {
+  background-color: #EBF5FF;
+}
+
+canvas{
+  background-color:#4D8FCB;
+  width:2%;
+  height:25%;
+  border-collapse: collapse;
+  border:none;
+  margin-bottom:-8%
+}
+
+ #tabletitle{
+    text-align:left;
+    padding-bottom:4%;
+    padding-top:4%;
+    color:white;
+    font-size:6vw;
+    border: 0px;}
+
+ #plastic{
+    text-align:left;
+    padding-left:10%;
+    padding-bottom:4%;
+    padding-top:4%;
+    color:white;
+    font-size:6vw;
+    border: 0px;}
+
+ #low{
+    text-align: right;
+    padding-bottom:4%;
+    padding-top:4%;
+    color:white;
+    font-size:6vw;
+    border: 0px;}
+ #high{
+    text-align: left;
+    padding-bottom:4%;
+    padding-top:4%;
+    color:white;
+    font-size:6vw;
+    border: 0px;}
+ #tablebelow{
+    table-layout: fixed;
+    width: 100%;
+    background-color:#4D8FCB;
+    margin-top:12%;}
+
+ span.frac {
+display: inline-block;
+text-align: center;
+}
+span.frac > sup {
+display: block;
+border-bottom: 1px solid;
+font: inherit;
+}
+span.frac > span {
+display: none;
+}
+span.frac > sub {
+display: block;
+font: inherit;
+}
+</style>
+</head>
+<body>
+
+
+<div style="margin-top:0%;margin-bottom:0%"> <h3>kilograms per cubic meter</h3></div>
+
+<table id="graphic">
+
+    <!-- Header -->
+    <tr>
+        <th>
+
+        </th>
+        <th>
+            0.9
+        </th>
+        <th>
+            1.0
+        </th>
+        <th>
+            1.1
+        </th>
+        <th>
+            1.2
+        </th>
+        <th>
+            1.3
+        </th>
+        <th>
+            1.4
+        </th>
+    </tr>
+
+    <!-- PP -->
+    <tr>
+        <td>
+            PP
+        </td>
+        <td>
+            <canvas>
+            </canvas>
+        </td>
+        <td>
+        </td>
+        <td>
+
+        </td>
+        <td>
+
+        </td>
+        <td>
+
+        </td>
+        <td>
+        </td>
+    </tr>
+
+    <!-- LDPE -->
+    <tr>
+        <td>
+            LDPE
+        </td>
+        <td>
+            <canvas style="margin-left: 20%">
+            </canvas>
+        </td>
+        <td>
+        </td>
+        <td>
+
+        </td>
+        <td>
+
+        </td>
+        <td>
+
+        </td>
+        <td>
+        </td>
+    </tr>
+
+    <!-- HDPE -->
+    <tr>
+        <td>
+            HDPE
+        </td>
+        <td>
+            <canvas style="margin-left: 41%;width:24%;">
+            </canvas>
+        </td>
+        <td>
+        </td>
+        <td>
+
+        </td>
+        <td>
+
+        </td>
+        <td>
+
+        </td>
+        <td>
+        </td>
+    </tr>
+
+    <!-- PS -->
+    <tr>
+        <td>
+            PS
+        </td>
+        <td>
+
+        </td>
+        <td>
+            <canvas style="margin-left: 50%">
+            </canvas>
+        </td>
+        <td>
+
+        </td>
+        <td>
+
+        </td>
+        <td>
+
+        </td>
+        <td>
+        </td>
+    </tr>
+
+    <!-- EP -->
+    <tr>
+        <td>
+            EP
+        </td>
+        <td>
+
+        </td>
+        <td>
+
+        </td>
+        <td>
+            <canvas style="margin-left: 20%;width:40%">
+            </canvas>
+        </td>
+        <td>
+
+        </td>
+        <td>
+
+        </td>
+        <td>
+        </td>
+    </tr>
+
+    <!-- PMMA -->
+    <tr>
+        <td>
+            PMMA
+        </td>
+        <td>
+
+        </td>
+        <td>
+
+        </td>
+        <td>
+            <canvas style="margin-left: 70%">
+            </canvas>
+        </td>
+        <td>
+
+        </td>
+        <td>
+
+        </td>
+        <td>
+        </td>
+    </tr>
+
+    <!-- Header -->
+    <tr>
+        <th>
+
+        </th>
+        <th>
+            0.9
+        </th>
+        <th>
+            1.0
+        </th>
+        <th>
+            1.1
+        </th>
+        <th>
+            1.2
+        </th>
+        <th>
+            1.3
+        </th>
+        <th>
+            1.4
+        </th>
+    </tr>
+
+    <!-- PUR -->
+    <tr>
+        <td>
+            PUR
+        </td>
+        <td>
+
+        </td>
+        <td>
+
+        </td>
+        <td>
+            <canvas style="margin-left: 80%;width:20%">
+            </canvas>
+        </td>
+        <td>
+            <canvas style="width:80%">
+            </canvas>
+        </td>
+        <td>
+
+        </td>
+        <td>
+        </td>
+    </tr>
+
+    <!-- PC -->
+    <tr>
+        <td>
+            PC
+        </td>
+        <td>
+
+        </td>
+        <td>
+
+        </td>
+        <td>
+            <canvas style="margin-left: 90%">
+            </canvas>
+        </td>
+        <td>
+        </td>
+        <td>
+
+        </td>
+        <td>
+        </td>
+    </tr>
+
+    <!-- PF -->
+    <tr>
+        <td>
+            PF
+        </td>
+        <td>
+
+        </td>
+        <td>
+
+        </td>
+        <td>
+
+        </td>
+        <td>
+            <canvas style="margin-left: 40%;width:60%">
+            </canvas>
+        </td>
+        <td>
+            <canvas style="width:20%">
+            </canvas>
+        </td>
+        <td>
+        </td>
+    </tr>
+
+    <!-- PVC -->
+    <tr>
+        <td>
+            PVC
+        </td>
+        <td>
+
+        </td>
+        <td>
+
+        </td>
+        <td>
+
+        </td>
+        <td>
+
+        </td>
+        <td>
+            <canvas style="width:100%">
+            </canvas>
+        </td>
+        <td>
+            <canvas style="width:90%">
+            </canvas>
+        </td>
+    </tr>
+
+    <!-- PET -->
+    <tr>
+        <td>
+            PET
+        </td>
+        <td>
+
+        </td>
+        <td>
+
+        </td>
+        <td>
+
+        </td>
+        <td>
+
+        </td>
+        <td>
+            <canvas style="margin-left: 40%">
+            </canvas>
+        </td>
+        <td>
+        </td>
+    </tr>
+
+    <!-- POM -->
+    <tr>
+        <td>
+            POM
+        </td>
+        <td>
+
+        </td>
+        <td>
+
+        </td>
+        <td>
+
+        </td>
+        <td>
+
+        </td>
+        <td>
+
+        </td>
+        <td>
+            <canvas style="margin-left: 10%">
+            </canvas>
+        </td>
+    </tr>
+
+    <!-- Header -->
+    <tr>
+        <th>
+
+        </th>
+        <th>
+            0.9
+        </th>
+        <th>
+            1.0
+        </th>
+        <th>
+            1.1
+        </th>
+        <th>
+            1.2
+        </th>
+        <th>
+            1.3
+        </th>
+        <th>
+            1.4
+        </th>
+    </tr>
+</table>
+
+
+<table id="tablebelow" style="background-color: #367CB9;">
+    <tr style="margin-bottom:3%;border-color:white">
+        <th id="tabletitle" style="padding-left:10%;">
+            <nobr>Plastic</nobr>
+        </th>
+
+        <th id="tabletitle">
+
+        </th>
+        <th id="tabletitle">
+
+        </th>
+        <th id="tabletitle">
+            <span  class="frac"><sup>g</sup> <span>/</span> <sub>cm<sup>3</sup></sub></span>
+        </th>
+    </tr>
+
+    <tr>
+        <td id="plastic">
+            <nobr>PP</nobr>
+        </td>
+
+        <td id="low">
+
+        </td>
+        <td id="low">
+
+        </td>
+        <td id="high">
+            0.90
+        </td>
+    </tr>
+    <tr>
+        <td id="plastic">
+            <nobr>LDPE</nobr>
+        </td>
+
+        <td id="low">
+
+        </td>
+        <td id="low">
+
+        </td>
+        <td id="high">
+            0.92
+        </td>
+    </tr>
+    <tr>
+        <td id="plastic">
+            <nobr>HDPE</nobr>
+        </td>
+
+        <td id="low">
+
+        </td>
+        <td id="low">
+            0.941 -
+        </td>
+        <td id="high">
+            0.965
+        </td>
+    </tr>
+    <tr>
+        <td id="plastic">
+            <nobr>PS</nobr>
+        </td>
+
+        <td id="low">
+
+        </td>
+        <td id="low">
+
+        </td>
+        <td id="high">
+            1.05
+        </td>
+    </tr>
+    <tr>
+        <td id="plastic">
+            <nobr>EP</nobr>
+        </td>
+
+        <td id="low">
+
+        </td>
+        <td id="low">
+            1.12 -
+        </td>
+        <td id="high">
+            1.16
+        </td>
+    </tr>
+    <tr>
+        <td id="plastic">
+            <nobr>PMMA</nobr>
+        </td>
+
+        <td id="low">
+
+        </td>
+        <td id="low">
+
+        </td>
+        <td id="high">
+            1.17
+        </td>
+    </tr>
+    <tr>
+        <td id="plastic">
+            <nobr>PUR</nobr>
+        </td>
+
+        <td id="low">
+
+        </td>
+        <td id="low">
+            1.18 -
+        </td>
+        <td id="high">
+            1.28
+        </td>
+    </tr>
+    <tr>
+        <td id="plastic">
+            <nobr>PC</nobr>
+        </td>
+
+        <td id="low">
+
+        </td>
+        <td id="low">
+
+        </td>
+        <td id="high">
+            1.19
+        </td>
+    </tr>
+    <tr>
+        <td id="plastic">
+            <nobr>PF</nobr>
+        </td>
+
+        <td id="low">
+
+        </td>
+        <td id="low">
+            1.24 -
+        </td>
+        <td id="high">
+            1.32
+        </td>
+    </tr>
+    <tr>
+        <td id="plastic">
+            <nobr>PVC</nobr>
+        </td>
+
+        <td id="low">
+
+        </td>
+        <td id="low">
+            1.30 -
+        </td>
+        <td id="high">
+            1.49
+        </td>
+    </tr>
+    <tr>
+        <td id="plastic">
+            <nobr>PET</nobr>
+        </td>
+
+        <td id="low">
+
+        </td>
+        <td id="low">
+
+        </td>
+        <td id="high">
+            1.34
+        </td>
+    </tr>
+    <tr>
+        <td id="plastic">
+            <nobr>POM</nobr>
+        </td>
+
+        <td id="low">
+
+        </td>
+        <td id="low">
+
+        </td>
+        <td id="high">
+            1.41
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
