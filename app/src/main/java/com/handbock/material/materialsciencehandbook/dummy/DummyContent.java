@@ -48,7 +48,7 @@ public class DummyContent {
 
         addItem(new DummyItem("","", ""));
         addItem(new DummyItem(" A","Density", "file:///android_asset/properties/density.html"));
-        addItem(new DummyItem(" B","Refractive index", "https://www.google.de/"));
+        addItem(new DummyItem(" B","Refractive index", "file:///android_asset/properties/refractive_index.html"));
         addItem(new DummyItem(" C","Tensile strenght", "https://www.google.de/"));
         addItem(new DummyItem(" D","Elongation break", "https://www.google.de/"));
     }

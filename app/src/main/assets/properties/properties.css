@@ -1,0 +1,87 @@
+div {background-color:#367CB9;margin-top:12%;margin-bottom:-4%}
+h3 {color:white; font-size:6vw; text-align:left; padding-left:4%;padding-top:4%;padding-bottom:4%}
+table{
+  table-layout: fixed;
+  width: 100%;
+  background-color:#FFFFFF;
+}
+th{
+  text-align: left;
+  padding: 0px;
+  font-size:3vw;
+}
+
+td{
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 0px;
+  font-size:4vw;
+}
+
+  #graphic  tr:nth-child(even) {
+  background-color: #EBF5FF;
+}
+
+canvas{
+  background-color:#4D8FCB;
+  width:4%;
+  height:25%;
+  border-collapse: collapse;
+  border:none;
+  margin-bottom:-8%
+}
+
+ #tabletitle{
+    text-align:left;
+    padding-bottom:4%;
+    padding-top:4%;
+    color:white;
+    font-size:6vw;
+    border: 0px;}
+
+ #plastic{
+    text-align:left;
+    padding-left:10%;
+    padding-bottom:4%;
+    padding-top:4%;
+    color:white;
+    font-size:6vw;
+    border: 0px;}
+
+ #low{
+    text-align: right;
+    padding-bottom:4%;
+    padding-top:4%;
+    padding-right:1%;
+    color:white;
+    font-size:6vw;
+    border: 0px;}
+ #high{
+    text-align: left;
+    padding-bottom:4%;
+    padding-top:4%;
+    color:white;
+    font-size:6vw;
+    border: 0px;}
+ #tablebelow{
+    table-layout: fixed;
+    width: 100%;
+    background-color:#4D8FCB;
+    margin-top:12%;}
+
+ span.frac {
+display: inline-block;
+text-align: center;
+}
+span.frac > sup {
+display: block;
+border-bottom: 1px solid;
+font: inherit;
+}
+span.frac > span {
+display: none;
+}
+span.frac > sub {
+display: block;
+font: inherit;
+}
