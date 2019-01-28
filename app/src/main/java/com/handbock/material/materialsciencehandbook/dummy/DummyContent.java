@@ -37,8 +37,15 @@ public class DummyContent {
         addItem(new DummyItem(" 8","POM", "file:///android_asset/plastics/pom.html"));
         addItem(new DummyItem(" 9","PP", "file:///android_asset/plastics/pp.html"));
         addItem(new DummyItem("10","PS", "file:///android_asset/plastics/ps.html"));
-        addItem(new DummyItem("11","PUR", "file:///android_asset/plastics/pur.html"));
-        addItem(new DummyItem("12","PVC", "file:///android_asset/plastics/pvc.html"));
+        addItem(new DummyItem("11","PSU", "file:///android_asset/plastics/psu.html"));
+        addItem(new DummyItem("12","PUR", "file:///android_asset/plastics/pur.html"));
+        addItem(new DummyItem("13","PVC", "file:///android_asset/plastics/pvc.html"));
+        addItem(new DummyItem("14","PVDS", "file:///android_asset/plastics/pvds.html"));
+
+
+
+
+
         addItem(new DummyItem("","", ""));
         addItem(new DummyItem(" A","Density", "file:///android_asset/properties/density.html"));
         addItem(new DummyItem(" B","Refractive index", "https://www.google.de/"));
