@@ -51,6 +51,7 @@ public class DummyContent {
         addItem(new DummyItem(" B","Refractive index", "file:///android_asset/properties/refractive_index.html"));
         addItem(new DummyItem(" C","Tensile strength (yield)", "file:///android_asset/properties/tensile_strength.html"));
         addItem(new DummyItem(" D","Elongation break", "https://www.google.de/"));
+        addItem(new DummyItem(" E","Tensile modulus of elasticity E", "file:///android_asset/properties/tensile_modulus.html"));
     }
 
     private static void addItem(DummyItem item) {
