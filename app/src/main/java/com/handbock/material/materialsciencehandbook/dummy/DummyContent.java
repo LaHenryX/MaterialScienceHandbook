@@ -59,7 +59,7 @@ public class DummyContent {
         addItem(new DummyItem("  E","Flexural strength", "file:///android_asset/properties/flexural_strength.html"));
         addItem(new DummyItem("  F","Softening point", "file:///android_asset/properties/softening_point.html"));
         addItem(new DummyItem("  G","Glass transition temperature", "file:///android_asset/properties/glass_temperature.html"));
-        addItem(new DummyItem("  H","Glass transition temperature", "file:///android_asset/properties/thermal_expansion.html"));
+        addItem(new DummyItem("  H","Coefficient of the linear thermal expansion", "file:///android_asset/properties/thermal_expansion.html"));
     }
 
     private static void addItem(DummyItem item) {
