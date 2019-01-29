@@ -52,6 +52,7 @@
         android:layout_margin="@dimen/fab_margin"
         app:layout_anchor="@+id/plastic_detail_container"
         app:layout_anchorGravity="top|end"
-        app:srcCompat="@android:drawable/stat_notify_chat" />
+        app:srcCompat="@android:drawable/stat_notify_chat"
+        tools:srcCompat="@android:drawable/gallery_thumb" />
 
 </android.support.design.widget.CoordinatorLayout>
