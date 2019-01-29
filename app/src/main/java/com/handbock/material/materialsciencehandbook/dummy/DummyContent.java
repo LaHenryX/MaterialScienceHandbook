@@ -27,20 +27,25 @@ public class DummyContent {
 
     static {
         // Add some sample items.
-        addItem(new DummyItem(" 1","EP", "file:///android_asset/plastics/ep.html"));
-        addItem(new DummyItem(" 2","HDPE", "file:///android_asset/plastics/hdpe.html"));
-        addItem(new DummyItem(" 3","LDPE", "file:///android_asset/plastics/ldpe.html"));
-        addItem(new DummyItem(" 4","PC", "file:///android_asset/plastics/pc.html"));
-        addItem(new DummyItem(" 5","PET", "file:///android_asset/plastics/pet.html"));
-        addItem(new DummyItem(" 6","PF", "file:///android_asset/plastics/pf.html"));
-        addItem(new DummyItem(" 7","PMMA", "file:///android_asset/plastics/pmma.html"));
-        addItem(new DummyItem(" 8","POM", "file:///android_asset/plastics/pom.html"));
-        addItem(new DummyItem(" 9","PP", "file:///android_asset/plastics/pp.html"));
-        addItem(new DummyItem("10","PS", "file:///android_asset/plastics/ps.html"));
-        addItem(new DummyItem("11","PSU", "file:///android_asset/plastics/psu.html"));
-        addItem(new DummyItem("12","PUR", "file:///android_asset/plastics/pur.html"));
-        addItem(new DummyItem("13","PVC", "file:///android_asset/plastics/pvc.html"));
-        addItem(new DummyItem("14","PVDS", "file:///android_asset/plastics/pvds.html"));
+        addItem(new DummyItem("1","EP", "file:///android_asset/plastics/ep.html"));
+        addItem(new DummyItem("2","HDPE", "file:///android_asset/plastics/hdpe.html"));
+        addItem(new DummyItem("3","LDPE", "file:///android_asset/plastics/ldpe.html"));
+        addItem(new DummyItem("4","PA 6,6 NYLON", "file:///android_asset/plastics/PA 6,6 Nylon.html"));
+        addItem(new DummyItem("5","PC", "file:///android_asset/plastics/pc.html"));
+        addItem(new DummyItem("6","PEEK", "file:///android_asset/plastics/peek.html"));
+        addItem(new DummyItem("7","PET", "file:///android_asset/plastics/pet.html"));
+        addItem(new DummyItem("8","PF", "file:///android_asset/plastics/pf.html"));
+        addItem(new DummyItem("9","PMMA", "file:///android_asset/plastics/pmma.html"));
+        addItem(new DummyItem("10","POM", "file:///android_asset/plastics/pom.html"));
+        addItem(new DummyItem("11","PP", "file:///android_asset/plastics/pp.html"));
+        addItem(new DummyItem("12","PS", "file:///android_asset/plastics/ps.html"));
+        addItem(new DummyItem("13","PSU", "file:///android_asset/plastics/psu.html"));
+        addItem(new DummyItem("14","PTFE", "file:///android_asset/plastics/ptfe.html"));
+        addItem(new DummyItem("15","PUR", "file:///android_asset/plastics/pur.html"));
+        addItem(new DummyItem("16","PVC", "file:///android_asset/plastics/pvc.html"));
+        addItem(new DummyItem("17","PVDS", "file:///android_asset/plastics/pvds.html"));
+        addItem(new DummyItem("18","SBR", "file:///android_asset/plastics/sbr.html"));
+        addItem(new DummyItem("19","SI", "file:///android_asset/plastics/si.html"));
 
 
 
